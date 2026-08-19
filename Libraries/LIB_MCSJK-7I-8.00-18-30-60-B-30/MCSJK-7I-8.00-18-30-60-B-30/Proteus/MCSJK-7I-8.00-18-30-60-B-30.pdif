@@ -1,0 +1,122 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "MCSJK-7I-8.00-18-30-60-B-30"
+   (description "MULTICOMP PRO - MCSJK-7I-8.00-18-30-60-B-30 - Crystal, 8 MHz, SMD, 5mm x 3.2mm, 30 ppm, 18 pF, 30 ppm")
+   (family "OSC")
+   (package "MCSJK7I800183060B30")
+   (attribute "Datasheet Link" "https://www.farnell.com/datasheets/2864167.pdf")
+   (attribute "Geometry.Height" "1.05mm")
+   (attribute "Manufacturer_Name" "Multicomp Pro")
+   (attribute "Manufacturer_Part_Number" "MCSJK-7I-8.00-18-30-60-B-30")
+   (attribute "Mouser Part Number" "")
+   (attribute "Mouser Price/Stock" "")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "MCSJK-7I-8.00-18-30-60-B-30")
+    (pin "CRYSTAL_1" 1 PS)
+    (pin "GND_1" 2 PS)
+    (pin "CRYSTAL_2" 3 PS)
+    (pin "GND_2" 4 PS)
+   )
+  )
+  (symbol "MCSJK-7I-8.00-18-30-60-B-30"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1400 100) (pt 1400 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1600 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1600 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "MCSJK7I800183060B30"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.5 1.6)
+      (pt 2.5 1.6)
+      (pt 2.5 -1.6)
+      (pt -2.5 -1.6)
+      (pt -2.5 1.6))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.85 2.7)
+      (pt 3.85 2.7)
+      (pt 3.85 -2.7)
+      (pt -3.85 -2.7)
+      (pt -3.85 2.7))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -0.6 1.6)
+      (pt 0.6 1.6))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -0.6 -1.6)
+      (pt 0.6 -1.6))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2 -2.2)
+      (arc (pt -2.000 -2.200) (pt -2.050 -2.300) (pt -1.950 -2.200) (start 180.0) (sweep 90.0))
+      (pt -2 -2.3)
+      (arc (pt -2.000 -2.300) (pt -2.050 -2.300) (pt -1.950 -2.200) (start 180.0) (sweep -90.0))
+      (pt -2 -2.2))))
+   (leg 1 (pt -1.850 -1.100) (padstack 0))
+   (leg 2 (pt 1.850 -1.100) (padstack 0))
+   (leg 3 (pt 1.850 1.100) (padstack 0))
+   (leg 4 (pt -1.850 1.100) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.200 2.000 0 0 0.000))
+   )
+   (model "MCSJK-7I-8.00-18-30-60-B-30.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "MCSJK-7I-8_00-18-30-60-B-30"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-10-27-05:44:18)
+    (mountForm default
+        (footprintRef "MCSJK7I800183060B30")
+        (spec "System")
+    )
+)

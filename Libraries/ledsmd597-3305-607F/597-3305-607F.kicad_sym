@@ -1,0 +1,107 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "597-3305-607F" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "D" (id 0) (at -2.03513 4.07027 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "597-3305-607F" (id 1) (at -2.03368 -3.81315 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "597-3305-607F:LEDC2012X70N" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MF" "Dialight" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Description" "\n                        \n                            SMD LED 0805 G 7 | Dialight 597-3305-607F\n                        \n" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Package" "0805 Dialight" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Price" "None" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SnapEDA_Link" "https://www.snapeda.com/parts/597-3305-607F/Dialight/view-part/?ref=snap" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "597-3305-607F" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=561918&manufacturer=Dialight&part_name=597-3305-607F&search_term=led smd" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Availability" "In Stock" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Check_prices" "https://www.snapeda.com/parts/597-3305-607F/Dialight/view-part/?ref=eda" (id 12) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "597-3305-607F_0_0"
+      (polyline
+        (pts (xy 2.54 -1.27) (xy 0.0 0.0)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 0.0) (xy 2.54 1.27)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 -1.27) (xy 0.0 0.0)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 0.0) (xy 0.0 1.27)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.54 -1.27) (xy 2.54 0.0)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.54 0.0) (xy 2.54 1.27)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.778 2.032) (xy 0.381 3.429)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.635 1.905) (xy -0.762 3.302)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts
+          (xy 0.381 3.429)
+          (xy 1.27 3.048)
+          (xy 0.762 2.54)
+          (xy 0.381 3.429)
+        )
+        (stroke (width 0.1524)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy -0.762 3.302)
+          (xy 0.127 2.921)
+          (xy -0.381 2.413)
+          (xy -0.762 3.302)
+        )
+        (stroke (width 0.1524)) (fill (type outline))
+      )
+      (polyline
+        (pts (xy -5.08 0.0) (xy 0.0 0.0)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.54 0.0) (xy 7.62 0.0)) (stroke (width 0.254))
+      )
+      (pin passive line (at -7.62 0.0 0) (length 2.54)
+        (name "C"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "C"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 10.16 0.0 180.0) (length 2.54)
+        (name "A"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

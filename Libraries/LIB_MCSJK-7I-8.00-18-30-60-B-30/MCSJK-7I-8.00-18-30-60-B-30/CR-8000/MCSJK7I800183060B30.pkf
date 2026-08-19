@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "MCSJK7I800183060B30"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "MCSJK7I800183060B30")
+        (spec "default")
+    )
+)

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/3969885/2138804/2.50/4/3/Crystal or Oscillator/-->
+<quadcept_library>
+  <setting unit="mil" />
+  <textstyle name="Default" height="47.244094488189" strokewidth="7.8740157480315" charwidth="47.244094488189" />
+  <textstyle name="Dimension" height="19.6850393700787" strokewidth="0" charwidth="19.6850393700787" />
+  <textstyle name="H127W0635TH00762" height="50" strokewidth="3" charwidth="25" />
+  <textstyle name="H15W15TH02" height="59.0551181102362" strokewidth="7.8740157480315" charwidth="59.0551181102362" />
+  <padstyle name="r200_120" surface="True" plated="False" isvia="False" nopaste="False" nomask="True" complex="False" holesize="0">
+    <padshape layer="TOP" shape="rectangle" width="47.244094488188" height="78.740157480314" />
+    <padshape layer="TOP_SOLDER_MASK" shape="rectangle" width="55.11811023622" height="86.614173228345" />
+    <padshape layer="TOP_SOLDER_PASTE" shape="rectangle" width="47.244094488188" height="78.740157480314" />
+  </padstyle>
+  <footprint name="MCSJK7I800183060B30" originx="0" originy="0" pickpointx="0" pickpointy="0">
+    <pcbpin number="1" name="1" style="r200_120" originx="-72.83464566929" originy="-43.307086614173" rotation="90" />
+    <pcbpin number="2" name="2" style="r200_120" originx="72.83464566929" originy="-43.307086614173" rotation="90" />
+    <pcbpin number="3" name="3" style="r200_120" originx="72.83464566929" originy="43.307086614173" rotation="90" />
+    <pcbpin number="4" name="4" style="r200_120" originx="-72.83464566929" originy="43.307086614173" rotation="90" />
+    <line layer="TOP_ASSEMBLY" originx="-98.425196850392" originy="62.992125984251" endx="98.425196850392" endy="62.992125984251" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="98.425196850392" originy="62.992125984251" endx="98.425196850392" endy="-62.992125984251" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="98.425196850392" originy="-62.992125984251" endx="-98.425196850392" endy="-62.992125984251" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="-98.425196850392" originy="-62.992125984251" endx="-98.425196850392" endy="62.992125984251" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="-151.5748031496" originy="106.29921259842" endx="151.5748031496" endy="106.29921259842" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="151.5748031496" originy="106.29921259842" endx="151.5748031496" endy="-106.29921259842" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="151.5748031496" originy="-106.29921259842" endx="-151.5748031496" endy="-106.29921259842" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="-151.5748031496" originy="-106.29921259842" endx="-151.5748031496" endy="106.29921259842" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-23.622047244094" originy="62.992125984251" endx="23.622047244094" endy="62.992125984251" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="-23.622047244094" originy="-62.992125984251" endx="23.622047244094" endy="-62.992125984251" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="-78.740157480314" originy="-86.614173228345" endx="-78.740157480314" endy="-86.614173228345" width="3.9370078740157" />
+    <arc layer="TOP_SILKSCREEN" originx="-78.740157480314" originy="-88.582677165353" startangle="90.0" sweepangle="180.0" radius="1.9685039370078" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-78.740157480314" originy="-90.551181102361" endx="-78.740157480314" endy="-90.551181102361" width="3.9370078740157" />
+    <arc layer="TOP_SILKSCREEN" originx="-78.740157480314" originy="-88.582677165353" startangle="-90.0" sweepangle="180.0" radius="1.9685039370078" width="3.9370078740157" />
+  </footprint>
+  <symbol name="MCSJK-7I-8.00-18-30-60-B-30" originx="0" originy="0">
+    <line originx="200" originy="100" endx="1400" endy="100" width="0" />
+    <line originx="1400" originy="-200" endx="1400" endy="100" width="0" />
+    <line originx="1400" originy="-200" endx="200" endy="-200" width="0" />
+    <line originx="200" originy="100" endx="200" endy="-200" width="0" />
+    <sympin number="1" originx="200" originy="-100" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-100" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="CRYSTAL_1" />
+      <text name="pindes" originx="140" originy="-80" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="1" />
+    </sympin>
+    <sympin number="2" originx="1400" originy="-100" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="1370" originy="-100" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="GND_1" />
+      <text name="pindes" originx="1460" originy="-80" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="2" />
+    </sympin>
+    <sympin number="3" originx="1400" originy="0" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="1370" originy="0" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="CRYSTAL_2" />
+      <text name="pindes" originx="1460" originy="20" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="3" />
+    </sympin>
+    <sympin number="4" originx="200" originy="0" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="0" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="GND_2" />
+      <text name="pindes" originx="140" originy="20" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="4" />
+    </sympin>
+  </symbol>
+  <component name="MCSJK-7I-8.00-18-30-60-B-30" designatorprefix="Y" height="41.338582677165" footprint="MCSJK7I800183060B30">
+    <comppin designator="1" sympin="1" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="CRYSTAL_1" />
+    <comppin designator="2" sympin="2" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="GND_1" />
+    <comppin designator="3" sympin="3" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="CRYSTAL_2" />
+    <comppin designator="4" sympin="4" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="GND_2" />
+    <attached_symbol gate="1" name="MCSJK-7I-8.00-18-30-60-B-30" />
+    <pinmap designator="1" footprintpin="1" />
+    <pinmap designator="2" footprintpin="2" />
+    <pinmap designator="3" footprintpin="3" />
+    <pinmap designator="4" footprintpin="4" />
+    <text name="Datasheet" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://www.farnell.com/datasheets/2864167.pdf" />
+    <text name="Description" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="MULTICOMP PRO - MCSJK-7I-8.00-18-30-60-B-30 - Crystal, 8 MHz, SMD, 5mm x 3.2mm, 30 ppm, 18 pF, 30 ppm" />
+    <text name="Manufacturer_Name" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="Multicomp Pro" />
+    <text name="Manufacturer_Part_Number" originx="1450" originy="200" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="MCSJK-7I-8.00-18-30-60-B-30" />
+    <text name="Mouser Part Number" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="" />
+    <text name="Mouser Price/Stock" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="" />
+    <text name="Arrow Part Number" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="" />
+    <text name="Arrow Price/Stock" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="" />
+  </component>
+</quadcept_library>

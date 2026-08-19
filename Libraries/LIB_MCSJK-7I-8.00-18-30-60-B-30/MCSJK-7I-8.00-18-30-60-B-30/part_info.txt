@@ -1,0 +1,9 @@
+Manufacturer=Multicomp Pro
+PartNumber=MCSJK-7I-8.00-18-30-60-B-30
+PartCategory=Crystal or Oscillator
+PackageCategory=Other
+PinCount=4
+Version=1.2
+Released=2021-10-27 05:44:18
+Downloaded=2026-08-19 06:25:38
+3D=Y
