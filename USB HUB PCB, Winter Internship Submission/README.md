@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/banner.png" alt="QL-04 USB Hub banner" width="100%" />
+  <img src="images/QL-04 USB Hub Circuit Banner.png" alt="QL-04 USB Hub banner" width="100%" />
 </p>
 
 # QUADLINK — QL-04
