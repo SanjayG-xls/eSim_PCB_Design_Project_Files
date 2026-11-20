@@ -1,0 +1,305 @@
+(footprint "USB_A_Kycon_KUSBX-AS1N-B_Horizontal"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Kycon, USB-A receptacle, through-hole, https://www.kycon.com/Catalog_PDF/KUSBX.pdf'")
+	(tags "USB-A receptacle horizontal THT")
+	(property "Reference" "REF**"
+		(at -1.95 -2.35 0)
+		(layer "F.SilkS")
+		(uuid "8c723206-82c9-40ab-8d2d-eff7b662bb92")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "USB_A_Kycon_KUSBX-AS1N-B_Horizontal"
+		(at 0 7 0)
+		(layer "F.Fab")
+		(uuid "9dbd8cf0-e301-401e-a246-ea03b3516f28")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 15 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4fa27fc9-f1f4-4885-810a-a58296b528de")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 9 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0e70466d-6845-469a-9583-1b8298a2a59e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.86 -1.12)
+		(end -3.86 0.86)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a018aeb7-4565-4fac-b393-f5053c3f8eb1")
+	)
+	(fp_line
+		(start -3.86 -1.12)
+		(end 10.86 -1.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ccc8aa21-6a23-4900-ae5c-713db3fa3e39")
+	)
+	(fp_line
+		(start -3.86 4.56)
+		(end -3.86 13.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6b96586e-e93a-4650-8aac-80296ac2ee20")
+	)
+	(fp_line
+		(start -3.86 13.1)
+		(end 10.86 13.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "65497f47-8fad-4994-8b76-0183f24f3211")
+	)
+	(fp_line
+		(start -0.5 -2)
+		(end 0 -1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a0bfe515-bee6-4c14-8416-cef7acd15ae5")
+	)
+	(fp_line
+		(start 0 -1.5)
+		(end 0.5 -2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "940d2282-939f-4838-a929-b3b02efb3949")
+	)
+	(fp_line
+		(start 0.5 -2)
+		(end -0.5 -2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "17b8e7dc-fde1-4063-9936-40d50f0b999f")
+	)
+	(fp_line
+		(start 10.86 0.86)
+		(end 10.86 -1.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "50bdbe88-bf6e-4c0e-9528-4fa0871e378e")
+	)
+	(fp_line
+		(start 10.86 4.56)
+		(end 10.86 13.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "22dcc66a-eedf-454d-9f4c-cf30e4c032a5")
+	)
+	(fp_line
+		(start -5.43 -1.51)
+		(end -5.43 13.49)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e010f166-0095-4dc0-b038-be2a412cd0d2")
+	)
+	(fp_line
+		(start -5.43 -1.51)
+		(end 12.43 -1.51)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7013f0f9-31c4-420b-afda-f08de4ca1ca8")
+	)
+	(fp_line
+		(start 12.43 -1.51)
+		(end 12.43 13.49)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4ccda586-a595-40b1-bc02-1448846fd067")
+	)
+	(fp_line
+		(start 12.43 13.49)
+		(end -5.43 13.49)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5719e2fd-7378-4c49-b3e4-223c4f108858")
+	)
+	(fp_line
+		(start -3.75 -0.13)
+		(end -3.75 12.99)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "83f1baee-9c47-4d66-bcbd-9dabbe2c8c9f")
+	)
+	(fp_line
+		(start -3.75 12.99)
+		(end 10.75 12.99)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f4441783-6b01-4e0f-b481-dd2048f74a8e")
+	)
+	(fp_line
+		(start -2.87 -1.01)
+		(end -3.75 -0.13)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fa288270-2996-43af-a507-c4a5a4e1549b")
+	)
+	(fp_line
+		(start -2.87 -1.01)
+		(end 10.75 -1.01)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fe7b6664-d4a2-4c44-9439-a83d66153dd4")
+	)
+	(fp_line
+		(start 10.75 -1.01)
+		(end 10.75 12.99)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "85bcdcbb-0ef7-4848-b75a-c3d284493c48")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3 5 0)
+		(layer "F.Fab")
+		(uuid "4b622fda-e727-42e4-b6c5-6e05a74bbabe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 1.524 1.524)
+		(drill 0.92)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1640419948)
+		(uuid "0a43db7e-8be2-4a1d-81c6-f1f01d2bfae2")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 0)
+		(size 1.524 1.524)
+		(drill 0.92)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c6a2b177-4dea-4010-8f40-8b33d31e99de")
+	)
+	(pad "3" thru_hole circle
+		(at 4.5 0)
+		(size 1.524 1.524)
+		(drill 0.92)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8d516f6b-ec95-448f-83d5-a5ae5fddea65")
+	)
+	(pad "4" thru_hole circle
+		(at 7 0)
+		(size 1.524 1.524)
+		(drill 0.92)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "80aed05e-a338-4938-9bad-7d68c1762d25")
+	)
+	(pad "5" thru_hole circle
+		(at -3.175 2.71)
+		(size 3.5 3.5)
+		(drill 2.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e6491d04-4bd8-4604-b341-329b9080f7bc")
+	)
+	(pad "5" thru_hole circle
+		(at 10.175 2.71)
+		(size 3.5 3.5)
+		(drill 2.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "30d4aaaa-9c46-400c-a7e8-d2c70bb27801")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Connector_USB.3dshapes/USB_A_Kycon_KUSBX-AS1N-B_Horizontal.step"
+		(offset (xyz 0 0 0))
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

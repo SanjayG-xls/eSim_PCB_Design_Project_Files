@@ -1,0 +1,59 @@
+(version 1)
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+# PCBWay 4-layer rules -- targets PCBWay's DEFAULT online-quote settings:
+# 6/6 mil track/space, 0.3 mm min hole, 1oz Cu, TG150, HASL-with-lead, tenting vias
+# (pcbway.com/capabilities.html, 2026-07). Finer trace (to 3-4 mil) and smaller
+# holes (0.15-0.25 mm) exist as non-default, sometimes-surcharged order options.
+# No HDI / blind-buried (separate advanced service).
+
+(rule "PTH pad hole-to-hole"
+	(condition "A.Pad_Type == 'Through-hole' && B.Pad_Type == 'Through-hole'")
+	(constraint hole_to_hole (min 0.5mm)))
+
+# PCBWay min annular ring 0.15 mm (6 mil)
+(rule "PTH pad annular ring"
+	(condition "A.Pad_Type == 'Through-hole'")
+	(constraint annular_width (min 0.15mm)))
+
+(rule "PTH hole to track"
+	(condition "A.Pad_Type == 'Through-hole' && B.Type == 'Track'")
+	(constraint hole_clearance (min 0.2mm)))
+
+(rule "PTH hole to copper, inner layers"
+	(layer inner)
+	(condition "A.Pad_Type == 'Through-hole'")
+	(constraint hole_clearance (min 0.25mm)))
+
+(rule "SMD pad-to-pad, different nets"
+	(condition "A.Pad_Type == 'SMD' && B.Pad_Type == 'SMD' && A.Net != B.Net")
+	(constraint clearance (min 0.15mm)))
+
+# PCBWay min non-plated hole 0.5 mm
+(rule "NPTH minimum hole size"
+	(condition "A.Pad_Type == 'NPTH, mechanical'")
+	(constraint hole_size (min 0.5mm)))
+
+# Unfilled via-in-pad wicks solder; use plugged/POFV (paid) if you need it
+(rule "No via in SMD pad"
+	(condition "A.Type == 'Via' && B.Pad_Type == 'SMD'")
+	(constraint hole_clearance (min 0.2mm)))
+
+# Standard FR-4 = through vias only. Blind/buried/micro = HDI (extra cost).
+(rule "No microvias"
+	(constraint disallow micro_via))
+
+(rule "No blind/buried vias"
+	(constraint disallow buried_via))
+
+# Design margin (spec: copper to routed edge 0.2 mm)
+(rule "Hole to board edge"
+	(condition "A.Type == 'Via' || A.Pad_Type == 'Through-hole'")
+	(constraint edge_clearance (min 0.5mm)))
+
+# Silk layers only; fab/comment text may be thinner
+(rule "Silkscreen text minimums"
+	(layer outer)
+	(condition "A.Type == 'Text' && (A.Layer == 'F.Silkscreen' || A.Layer == 'B.Silkscreen')")
+	(constraint text_thickness (min 0.15mm))
+	(constraint text_height (min 0.8mm)))

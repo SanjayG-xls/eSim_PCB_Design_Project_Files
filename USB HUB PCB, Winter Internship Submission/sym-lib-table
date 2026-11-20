@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TPS2553DBVT")(type "KiCad")(uri "C:/Users/sanjay/esim/usbhub/TPS2553DBVT/TPS2553DBVT.kicad_sym")(options "")(descr ""))
+  (lib (name "STUSB1602AQTR")(type "KiCad")(uri "C:/Users/sanjay/esim/usbhub/STUSB1602AQTR/STUSB1602AQTR.kicad_sym")(options "")(descr ""))
+)

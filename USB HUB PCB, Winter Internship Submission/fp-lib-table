@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "STUSB1602AQTR")(type "KiCad")(uri "C:/Users/sanjay/esim/usbhub/STUSB1602AQTR")(options "")(descr ""))
+  (lib (name "TPS2553DBVT")(type "KiCad")(uri "C:/Users/sanjay/esim/usbhub/TPS2553DBVT")(options "")(descr ""))
+  (lib (name "USB_Hub_Custom")(type "KiCad")(uri "C:/Users/sanjay/esim/usbhub/USB_Hub_Custom.pretty")(options "")(descr ""))
+)
