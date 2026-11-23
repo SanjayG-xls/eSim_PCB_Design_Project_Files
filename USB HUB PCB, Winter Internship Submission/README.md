@@ -76,4 +76,4 @@ Schematic capture, footprint assignment, PCB routing and design-stage verificati
 
 **Designed by Sanjay G.**  
 Department of VLSI Design and Technology, Chennai Institute of Technology  
-FOSSEE eSim Semester Long Internship — Autumn 2026 | Task 7
+FOSSEE eSim winter Internship — 2026 | Task 7
